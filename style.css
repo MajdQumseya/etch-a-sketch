@@ -9,14 +9,21 @@ body {
     background: url('./fading-blue-background.jpg');
     background-repeat: no-repeat;
     background-position: center;
+
+    color: snow;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 button {
-    padding: 12px;
+    padding: 8px;
     background-color: snow;
     border: 1px solid snow;
     /* box-shadow: 2px 3px black; */
     border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
 }
 
 .options-container{
@@ -27,6 +34,11 @@ button {
 
 .options-container>h2 {
     margin-top: 0;
+    font-size: 48px;
+}
+
+.options-container>p {
+    font-size: 18px;
 }
 
 .grid-options-container{
