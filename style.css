@@ -59,16 +59,18 @@ button {
 .game-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: flex-start;
     flex-wrap: wrap;
-    width: 352px;
-    border: 1px solid black;
+    width:960px;
+
+    background-color: #fff;
 }
 
 .grid-cell {
     border: 1px solid black;
-    height: 20px;
-    width: 20px;
+    /* height: 55px;
+    width: 55px; */
+    margin: 0;
 }
 
 .background-black {
