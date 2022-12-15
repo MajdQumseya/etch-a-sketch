@@ -20,9 +20,10 @@ button {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     font-size: 15px;
+    cursor: pointer;
 }
 
-.options-container{
+.options-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,14 +38,14 @@ button {
     font-size: 18px;
 }
 
-.grid-options-container{
+.grid-options-container {
     display: flex;
     width: 353px;
     justify-content: space-between;
     margin-bottom: 16px;
 }
 
-.color-options-container{
+.color-options-container {
     display: flex;
     width: 353px;
     justify-content: space-between;
@@ -57,7 +58,7 @@ button {
     justify-content: center;
     align-content: flex-start;
     flex-wrap: wrap;
-    width:960px;
+    width: 960px;
 
     background-color: #fff;
     box-shadow: 5px 10px #123456;
